@@ -1,0 +1,191 @@
+html{
+    
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #F0ECEE;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 2em;
+    height: 100%;
+    
+    
+        }
+
+.header {
+    overflow: hidden;
+   justify-content: flex-start;
+  
+    }
+         
+
+
+ul {
+    color: #88898B;
+    Padding: 1px;
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: 400;
+    list-style-type: none;
+            }
+
+Li a{
+     margin-right: 20px;
+     color: #88898B;
+     list-style-type: none;
+     text-decoration: none;
+      }
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+
+                }
+ 
+
+.header-right ul a:hover {
+  color: #FF4850;
+    
+                    }
+
+.header-right {
+    list-style-type: none;
+    
+    
+    
+                    }
+
+   
+.header a.logo .Me {
+    Color:#FF4850;
+                    }
+
+
+.h2 { 
+    color: #222;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    
+    }
+     
+mark{
+    background: none;
+    color: #FF4850;
+   }
+
+
+.P{
+    color: #88898B;
+    font-size: 20px;
+    font-weight: 400px;
+    display: flex;
+}
+
+
+button {
+    background-color: #FF4850;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin:1px 2px;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+        }       
+
+button:hover{
+    background-color: #CCC;
+    color: #FF4850;
+            }
+
+
+@media screen and (Min-width: 798px) {
+
+body {
+    Background-image: url("bulldog.jpg");
+    background-size: cover; 
+    
+    }
+
+    .masterheader{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+.header {
+    display: inline;
+    
+        }    
+
+.header a {
+    float: Left;
+    text-align: center;
+    display: inline;
+    
+         }
+    .header-right{
+        
+    }    
+    
+ul {
+    float:right;
+     }
+    
+ 
+ li {
+     float: Left;
+        }
+    
+    .masterlower{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        
+        
+    }
+    
+    
+ .h2 { 
+     margin-top: 150px;
+     width: 650px;
+   
+   }
+
+.p{
+    align-content: center; 
+    width: 450px;
+    
+}   
+
+    
+.button1 {
+    width: 120px;
+   
+           }
+
+
+.button2{
+    width: 300px;
+    text-align: center;
+        }
+
+
+}
+
+
+
+
+
